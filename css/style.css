@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mininav {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 32%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+ 
+
