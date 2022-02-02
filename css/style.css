@@ -93,3 +93,10 @@ footer {
 img {
   max-width: 100%;
 }
+
+.grid-head-container {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
