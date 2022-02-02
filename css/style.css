@@ -88,6 +88,7 @@ footer {
 .grid-container {
   border: 1px solid black;
   width: 284px;
+  margin-top: 35px;
 }
 
 img {
@@ -99,4 +100,20 @@ img {
   grid-column-gap: 5px;
   grid-template-columns: auto auto;
   justify-content: space-between;
+}
+
+.grid-item {
+  margin-left: 8px;
+}
+
+.news-bar {
+  border: 1px solid black;
+  margin-top: 60px;
+}
+
+.news-content {
+  display: grid;
+  grid-template-columns: 60px auto;
+  align-items: center;
+  border: 1px solid black;
 }
