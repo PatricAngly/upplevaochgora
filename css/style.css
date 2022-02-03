@@ -170,3 +170,12 @@ img {
   border-inline: none;
   border-block-end: none;
 }
+
+.left-content {
+  max-width: 300px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
