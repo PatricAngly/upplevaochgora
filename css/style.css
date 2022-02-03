@@ -36,6 +36,8 @@ main {
   width: 1200px;
   height: 2900px;
   margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer {
@@ -54,8 +56,9 @@ footer {
 }
 /* Innehåll i mitten*/
 .midcontent {
-  width: 632px;
-  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -75,7 +78,7 @@ footer {
   padding: 7px;
 }
 
-.div-bar-body {
+.special-container {
   border: 1px solid black;
   margin-top: 32px;
   border-radius: 10px;
@@ -116,4 +119,38 @@ img {
   grid-template-columns: 60px auto;
   align-items: center;
   border: 1px solid black;
+}
+
+.last-mid-container {
+  border: 1px solid black;
+  margin-top: 35px;
+}
+
+.right-content {
+  max-width: 300px;
+}
+
+.event-bar {
+  border: 1px solid black;
+}
+
+.event-items {
+  display: grid;
+  grid-template-columns: 60px auto;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-headline {
+  margin-bottom: 0;
+}
+
+.event-p {
+  margin-top: 0;
 }
