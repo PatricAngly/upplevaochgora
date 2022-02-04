@@ -53,8 +53,8 @@ footer {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto;
-  justify-items: center;
-  grid-gap: 50%;
+  justify-content: space-around;
+  grid-gap: 20%;
   align-items: center;
   background-color: #ededed;
 }
