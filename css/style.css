@@ -18,30 +18,31 @@ header {
   margin-left: 32%;
 }
 
-ul {
+.bignav-list {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-li {
+.nav-items {
   margin: 25px;
 }
 
 .bignav {
   background-color: #ae0b05;
+  color: white;
 }
 
 main {
-  background-color: green;
-  width: 1200px;
-  height: 2900px;
+  background-color: #ededed;
+  width: 100%;
+  height: 2550px;
   margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 footer {
-  background-color: blue;
+  background-color: white;
   width: 1200px;
   height: 1020px;
   margin: 0 auto;
@@ -81,17 +82,21 @@ footer {
 .special-container {
   border: 1px solid black;
   margin-top: 32px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .special-headline {
   padding: 8px;
+  background-color: #ae0b05;
+  color: white;
+  margin: 0;
 }
 
 .grid-container {
   border: 1px solid black;
   width: 284px;
   margin-top: 35px;
+  border-radius: 5px;
 }
 
 img {
@@ -112,6 +117,7 @@ img {
 .news-bar {
   border: 1px solid black;
   margin-top: 60px;
+  border-radius: 5px;
 }
 
 .news-content {
@@ -126,15 +132,18 @@ img {
 .last-mid-container {
   border: 1px solid black;
   margin-top: 35px;
+  border-radius: 5px;
 }
 
 .right-content {
-  max-width: 300px;
+  width: 260px;
 }
 
 .event-bar {
   border: 1px solid black;
   margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .event-items {
@@ -163,6 +172,7 @@ img {
 .tips {
   margin-top: 30px;
   border: 1px solid;
+  border-radius: 5px;
 }
 
 .tips-p {
@@ -172,10 +182,66 @@ img {
 }
 
 .left-content {
-  max-width: 300px;
+  width: 280px;
 }
 
-.menu-list {
+.menu-items {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.menu-items > li {
+  border-bottom: 1px solid;
+  padding: 25px;
+}
+
+.menu-items > li:last-child {
+  border-bottom: none;
+}
+
+.contact-info {
   display: flex;
-  flex-direction: column;
+}
+
+.open-info {
+  padding-left: 280px;
+}
+
+.contact-options {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.contact-items {
+  border: 1px solid;
+  border-bottom: none;
+  border-inline-start: none;
+  border-top: none;
+}
+
+.contact-head {
+  border: 1px solid;
+  border-bottom: none;
+  border-inline-start: none;
+  border-top: none;
+}
+
+.contact-text {
+  border: 1px solid;
+  border-top: none;
+  border-inline-start: unset;
+}
+
+.hbg-logo {
+  margin-top: 70px;
+}
+
+.last-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
