@@ -22,6 +22,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 .nav-items {
   margin: 25px;
@@ -49,11 +50,13 @@ footer {
 }
 
 .nav-helper {
-  width: 1200px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  grid-gap: 50%;
   align-items: center;
+  background-color: #ededed;
 }
 /* Innehåll i mitten*/
 .midcontent {
@@ -85,6 +88,13 @@ footer {
   border-radius: 5px;
 }
 
+.mid-headline {
+  padding: 8px;
+  background-color: white;
+
+  margin: 2px;
+}
+
 .special-headline {
   padding: 8px;
   background-color: #ae0b05;
@@ -97,6 +107,7 @@ footer {
   width: 284px;
   margin-top: 35px;
   border-radius: 5px;
+  background-color: white;
 }
 
 img {
@@ -127,12 +138,14 @@ img {
   border: 1px solid black;
   border-block-end: none;
   border-inline: none;
+  background-color: white;
 }
 
 .last-mid-container {
   border: 1px solid black;
   margin-top: 35px;
   border-radius: 5px;
+  background-color: white;
 }
 
 .right-content {
@@ -179,10 +192,16 @@ img {
   padding: 10px;
   border-inline: none;
   border-block-end: none;
+  background-color: white;
+  margin: 2px;
 }
 
 .left-content {
   width: 280px;
+}
+
+.menu-left {
+  background-color: white;
 }
 
 .menu-items {
